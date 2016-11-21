@@ -13,34 +13,115 @@
 
     <main>
 
-      <section>
-        <fieldset class='basic-info'>
-          <legend>Basic Info</legend>
-            <aside class='full-name'>
-              <h2>Full Name</h2>
-              <input type='text' placeholder='Full Name'>
+      <form method='POST' action='http://requestb.in/srt62tsr' enctype='multipart/form-data'>
+        <section>
+          <fieldset class='basic-info'>
+            <legend>Basic Info</legend>
+              <aside class='full-name'>
+                <h2>Full Name</h2>
+                <input type='text' placeholder='Full Name' required>
+              </aside>
+
+              <aside>
+                <h2>Profile Pic</h2>
+                <input type='file'>
+              </aside>
+
+              <aside>
+                <h2>Email</h2>
+                <input type='email' placeholder='your email address' required>
+              </aside>
+
+              <aside>
+                <h2>Side:</h2>
+                <label>Light</label>
+                <input type='radio'>
+                <label>Dark</label>
+                <input type='radio'>
+              </aside>
+
+              <aside>
+                <h2>Origin Story</h2>
+                <textarea required></textarea>
+              </aside>
+          </fieldset>
+        </section>
+
+        <section>
+          <fieldset class='abilities'>
+            <legend>Abilities</legend>
+            <h2>Light Saber Color</h2>
+            <aside>
+              <select>Select Color
+                <option>Select Color</option>
+                <option>Green</option>
+                <option>Yellow</option>
+                <option>Purple</option>
+                <option>Blue</option>
+              </select>
             </aside>
 
             <aside>
-              <h2>Profile Pic</h2>
-              <input type='file'>
+              <h2>How many objects can you levitate at once?</h2>
+              <input type='number' min='1' max='10'>
             </aside>
-        </fieldset>
-      </section>
 
-      <section>
-        <fieldset class='abilities'>
-          <legend>Abilities</legend>
-        </fieldset>
-      </section>
+            <aside>
+              <h2>Favorite Ability</h2>
+              <input type='text' placeholder='precognition'>
+            </aside>
 
-      <section>
-        <fieldset class='app-info'>
-          <legend>Application Info</legend>
+            <aside>
+              <h2>Pilot experience</h2>
+              <input type='checkbox'>
+              <label>Speeder</label>
+              <input type='checkbox'>
+              <label>Transport</label>
+              <input type='checkbox'>
+              <label>X-wing</label>
+              <input type='checkbox'>
+              <label>TIE Fighter</label>
+              <input type='checkbox'>
+              <label>Starship</label>
+              <input type='checkbox'>
+              <label>Bantha</label>
+            </aside>
+          </fieldset>
+        </section>
+
+        <section>
+          <fieldset class='app-info'>
+            <legend>Application Info</legend>
+            <aside>
+              <h2>Desired Mentor</h2>
+              <type type='text' placeholder='Yoda'>
+            </aside>
+
+            <aside>
+              <h2>Application Date</h2>
+              <input type='date' required>
+            </aside>
+
+            <aside>
+              <h2>Application Password</h2>
+              <input type='passowrd' required>
+            </aside>
+
+            <aside>
+              <h2>How do you get to the other side?</h2>
+              <textarea></textarea>
+            </aside>
+
+            <input class='button' type='reset' value='Start Over'>
+            <input class='button' type='submit' value='Apply'>
+          </section>
         </fieldset>
-      </section>
+      </form>
 
     </main>
 
   </body>
+
+  <footer> © 2016 The Republic</footer>
+
 </html>
