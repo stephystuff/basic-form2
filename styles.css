@@ -1,0 +1,13 @@
+section{
+  width: 300px;
+  float: left;
+}
+
+h2 {
+  font-size: 1em;
+  margin: 0;
+}
+
+aside {
+  padding: 5px;
+}
