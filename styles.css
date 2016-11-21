@@ -1,5 +1,9 @@
+main {
+  margin-left: 65px;
+}
+
 section{
-  width: 300px;
+  width: 350px;
   float: left;
 }
 
@@ -10,4 +14,28 @@ h2 {
 
 aside {
   padding: 5px;
+  font-size: 0.8em;
+}
+
+input {
+  border-radius: 3px;
+}
+
+textarea {
+  border-radius: 3px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+}
+
+.button{
+  background-color: #009cde;
+  border-color: #0000ff;
+}
+
+footer {
+  clear: both;
+  padding-top: 10px;
 }
