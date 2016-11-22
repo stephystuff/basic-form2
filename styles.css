@@ -7,15 +7,16 @@ section{
   float: left;
 }
 
+aside {
+  padding: 5px;
+  font-size: 0.9em;
+}
+
 h2 {
   font-size: 1em;
   margin: 0;
 }
 
-aside {
-  padding: 5px;
-  font-size: 0.8em;
-}
 
 input {
   border-radius: 3px;
