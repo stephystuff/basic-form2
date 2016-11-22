@@ -1,101 +1,101 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Basic Form</title>
-    <link href='styles.css' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Basic Form</title>
+  <link href='styles.css' rel='stylesheet' type='text/css'>
+</head>
 
-    <header>
-      <h1>Force User Sign up Form</h1>
-    </header>
+<body>
 
-    <main>
+  <header>
+    <h1>Force User Sign up Form</h1>
+  </header>
 
-      <form method='POST' action='http://requestb.in/pdr5atpd' enctype='multipart/form-data'>
-        <section>
-          <fieldset class='basic-info'>
-            <legend>Basic Info</legend>
-              <aside class='full-name'>
-                <h2>Full Name</h2>
-                <input type='text' name='fullname' placeholder='Full Name' required>
-              </aside>
+  <main>
 
-              <aside>
-                <h2>Profile Pic</h2>
-                <input type='file' name='profile-pic'>
-              </aside>
+    <form method='POST' action='http://requestb.in/pdr5atpd' enctype='multipart/form-data'>
+      <section>
+        <fieldset class='basic-info'>
+          <legend>Basic Info</legend>
+          <aside class='full-name'>
+            <h2>Full Name</h2>
+            <input type='text' name='fullname' placeholder='Full Name' required>
+          </aside>
 
-              <aside>
-                <h2>Email</h2>
-                <input type='email' name='email' placeholder='your email address' required>
-              </aside>
+          <aside>
+            <h2>Profile Pic</h2>
+            <input type='file' name='profile-pic'>
+          </aside>
 
-              <aside>
-                <h2>Side:</h2>
-                <label>Light</label>
-                <input type='radio' name='side' value='light'>
-                <label>Dark</label>
-                <input type='radio' name='side' value='dark'>
-              </aside>
+          <aside>
+            <h2>Email</h2>
+            <input type='email' name='email' placeholder='your email address' required>
+          </aside>
 
-              <aside>
-                <h2>Origin Story</h2>
-                <textarea name='origin' required></textarea>
-                <!-- <label ></label> -->
-              </aside>
-          </fieldset>
-        </section>
+          <aside>
+            <h2>Side:</h2>
+            <label>Light</label>
+            <input type='radio' name='side' value='light'>
+            <label>Dark</label>
+            <input type='radio' name='side' value='dark'>
+          </aside>
 
-        <section>
-          <fieldset class='abilities'>
-            <legend>Abilities</legend>
-            <aside>
-              <h2>Light Saber Color</h2>
-              <select name='color'>Select Color
-                <option>Select Color</option>
-                <option>Green</option>
-                <option>Yellow</option>
-                <option>Purple</option>
-                <option>Blue</option>
-              </select>
-            </aside>
+          <aside>
+            <h2>Origin Story</h2>
+            <textarea name='origin' required></textarea>
+          </aside>
+        </fieldset>
+      </section>
 
-            <aside>
-              <h2>How many objects can you levitate at once?</h2>
-              <input type='number' min='1' max='10' name='# items can levitate'>
-            </aside>
+      <section>
+        <fieldset class='abilities'>
+          <legend>Abilities</legend>
+          <aside>
+            <h2>Light Saber Color</h2>
+            <select name='color'>Select Color
+              <option>Select Color</option>
+              <option>Green</option>
+              <option>Yellow</option>
+              <option>Purple</option>
+              <option>Blue</option>
+            </select>
+          </aside>
 
-            <aside>
-              <h2>Favorite Ability</h2>
-              <input type='text' placeholder='precognition' name='precognition'>
-            </aside>
+          <aside>
+            <h2>How many objects can you levitate at once?</h2>
+            <input type='number' min='1' max='10' name='# items can levitate'>
+          </aside>
 
-            <aside>
-              <h2>Pilot experience</h2>
-              <input type='checkbox' name='pilot experience'>
-              <label>Speeder</label>
-              <input type='checkbox' name='pilot experience'>
-              <label>Transport</label>
-              <input type='checkbox' name='pilot experience'>
-              <label>X-wing</label>
-              <input type='checkbox' name='pilot experience'>
-              <label>TIE Fighter</label>
-              <input type='checkbox' name='pilot experience'>
-              <label>Starship</label>
-              <input type='checkbox' name='pilot experience'>
-              <label>Bantha</label>
-            </aside>
-          </fieldset>
-        </section>
+          <aside>
+            <h2>Favorite Ability</h2>
+            <input type='text' placeholder='precognition' name='precognition'>
+          </aside>
 
-        <section>
-          <fieldset class='app-info'>
-            <legend>Application Info</legend>
-            <aside>
-              <h2>Desired Mentor</h2>
-              <type type='text' placeholder='Yoda' name='desired mentor'>
+          <aside>
+            <h2>Pilot experience</h2>
+            <input type='checkbox' name='pilot experience'>
+            <label>Speeder</label>
+            <input type='checkbox' name='pilot experience'>
+            <label>Transport</label>
+            <input type='checkbox' name='pilot experience'>
+            <label>X-wing</label>
+            <input type='checkbox' name='pilot experience'>
+            <label>TIE Fighter</label>
+            <input type='checkbox' name='pilot experience'>
+            <label>Starship</label>
+            <input type='checkbox' name='pilot experience'>
+            <label>Bantha</label>
+          </aside>
+        </fieldset>
+      </section>
+
+      <section>
+        <fieldset class='app-info'>
+          <legend>Application Info</legend>
+          <aside>
+            <h2>Desired Mentor</h2>
+            <type type='text' placeholder='Yoda' name='desired mentor'>
             </aside>
 
             <aside>
@@ -105,7 +105,7 @@
 
             <aside>
               <h2>Application Password</h2>
-              <input type='passowrd' name='password' required>
+              <input type='password' name='password' required>
             </aside>
 
             <aside>
@@ -125,4 +125,4 @@
 
   <footer> © 2016 The Republic</footer>
 
-</html>
+  </html>
